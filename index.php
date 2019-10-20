@@ -158,6 +158,7 @@
 
     <script src="public/scripts/loading.js"></script>
     <script src="public/scripts/modal-popup.js"></script>
+    <script src="public/scripts/scroll.js"></script>
     <script>
       AOS.init();
     </script>
