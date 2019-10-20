@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-135924924-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-135924924-1');
+    </script>
+
+    <meta
+      name="description"
+      content="Software Engineer, CS & Maths graduate, event organiser & speaker"
+    />
+    <meta name="author" content="Katie Walker" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>
+      Katie Walker - Software Engineer
+    </title>
+    <img src="/assets/katie.png" style="display: none;">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="http://www.iconj.com/gif_icon.php?pid=ix9ic309lp"
+      type="image/gif"
+    />
+
+    <link href="public/stylesheets/bootstrap.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="public/stylesheets/style.css" />
+    <link
+      rel="stylesheet"
+      href="public/stylesheets/mobile.css"
+      media="screen and (max-width: 770px)"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css"
+    />
+    <link rel="stylesheet" href="public/stylesheets/aos.css" />
+
+    <script src="//code.iconify.design/1/1.0.0-rc5/iconify.min.js"></script>
+  </head>
+
+  <body onload="showLoading()">
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+
+    <div id="page">
+      <div class="intro text-center" autofocus>
+        <div id="title-container" class="title containerfluild row">
+          <div class="col-md-2"></div>
+          <div class="logos col-md-1 left">
+            <a style="cursor: pointer" id="contactBtn" target="_top">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+          <div class="logos col-md-1 right">
+            <a href="https://www.twitter.com/kat_codes">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="col-md-4"><h1>Katie Walker</h1></div>
+          <div class="logos col-md-1 left">
+            <a href="https://www.linkedin.com/in/katiew812/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <div class="logos col-md-1 right">
+            <a href="https://www.github.com/katiew812">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="col-md-2"></div>
+
+          <div class="col-sm-12">
+            <div class="scrolling-text">
+              <p class="item1">Software Engineer</p>
+              <p class="item2">
+                Event organiser & speaker
+                <span
+                  class="iconify"
+                  data-icon="fxemoji:microphone"
+                  data-inline="false"
+                ></span>
+              </p>
+              <p class="item3">CS & Maths graduate</p>
+            </div>
+          </div>
+        </div>
+        <div class="shortcuts">
+          <a class="btn draw-border" id="scroll">Welcome!</a>
+          <script async src="scripts/scroll.js"></script>
+        </div>
+      </div>
+
+      <!-- <div class="about" id="about">
+        <div class="innerContainer">
+          <h2>About</h2>
+
+          <div class="flex-container" data-aos-once="true" data-aos-delay="100">
+            <div class="about-para">
+            </div>
+            <div class="about-para">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience shadow" id="experience-section">
+        <div class="innerContainer">
+          <h2>Hobbies</h2>
+
+          <div class="experience-items flex-container row">
+            <!-- Experience one -->
+            <!-- <div
+              data-aos="fade-right"
+              id="experience-one-button"
+              data-toggle="modal"
+              data-target="#experience-popup"
+              data-title="GitHub Campus Expert"
+              data-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+              data-img="/assets/campusexpert.jpg"
+              class="rounded shadow experience-item"
+              style="background:url('/assets/campusexpert.jpg')"
+            >
+              <div class="layer rounded">
+                <p>+</p>
+              </div>
+            </div> 
+
+            <div
+              
+              data-aos-delay="100"
+              class="rounded shadow experience-item"
+              data-toggle="modal"
+              data-target="#experience-popup"
+              data-title="Speaking"
+              data-text="I enjoy giving both technical and non-technical talks. Events I have recently spoken at include Sheffield Women In Tech, Front End Sheffield and Global Diversity CFP Day"
+              data-img="/assets/speaking.jpg"
+              style="background:url('/assets/speaking.jpg')"
+            >
+              <div class="layer rounded">
+                <p>+</p>
+              </div>
+            </div>
+
+
+          <div
+            class="modal fade"
+            id="experience-popup"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="experienceModal"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-head shadow rounded">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                </div>
+                <div class="modal-body">
+                  <p class="modal-text"></p>
+                  <div class="bottom-img shadow">
+                    <img class="modal-img rounded shadow" />
+                  </div>
+                  <div class="modal-foot">
+                    <button
+                      id="modal-close"
+                      class="close"
+                      type="button"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span class="fa-stack fa-sm">
+                        <i class="fas fa-times"></i>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+-->
+      <div class="contact" id="contact">
+        <div class="innerContainer">
+          <h2>Contact</h2>
+          <div data-aos-once="true" data-aos-delay="100">
+            <form action="https://formcarry.com/s/rylrprtMX" method="POST">
+              <div class="form-item">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  id="email"
+                />
+              </div>
+
+              <div class="form-item">
+                <textarea
+                  rows="5"
+                  type="message"
+                  name="message"
+                  placeholder="Message"
+                  id="message"
+                ></textarea>
+              </div>
+
+              <div class="form-submit">
+                <input type="submit" value="Submit" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    
+      <footer>
+        <i style="color: #df4e7f" class="fas fa-code"></i> with
+        <i style="color: red;" class="fas fa-heart"></i> by
+        <a href="https://www.linkedin.com/in/katiew812/">Katie</a>
+      </footer>
+    </div>
+    <div id="loader">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/aos.js"></script>
+
+    <script src="scripts/loading.js"></script>
+    <script src="scripts/modal-popup.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

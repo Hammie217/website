@@ -1,0 +1,117 @@
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-attachment: none;
+}
+
+h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.intro {
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 0;
+}
+.intro .title-container {
+  width: 100%;
+}
+.intro .title {
+  margin-top: 18vh;
+}
+.intro .title .logos {
+  font-size: 40px;
+  width: 50%;
+}
+.intro .title .right {
+  text-align: left;
+}
+.intro .title .left {
+  text-align: right;
+}
+.intro .title .col-md-4 {
+  padding: 0;
+}
+.intro .title .col-sm-12 {
+  height: 70px;
+}
+.intro .title h1 {
+  font-size: 38px;
+  letter-spacing: -1px;
+}
+.intro .scrolling-text {
+  font-size: 10px;
+  overflow-x: hidden;
+  width: 100%;
+}
+.intro .scrolling-text .item1,
+.intro .scrolling-text .item2,
+.intro .scrolling-text .item3 {
+  width: 100%;
+}
+.intro .shortcuts {
+  margin-top: 10vh;
+  width: auto;
+}
+.intro .shortcuts a {
+  font-size: 18px;
+}
+
+.about {
+  height: auto;
+  display: flex;
+  padding-bottom: 0px;
+}
+.about .flex-container {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.about .flex-container .about-para {
+  width: 100%;
+  margin: 0;
+  padding: 0 20px 50px 20px;
+}
+#experience-section {
+  padding-bottom: 50px;
+}
+
+#projects {
+  padding: 50px 0 100px;
+}
+#projects ul {
+  padding-left: 10%;
+}
+#projects .events,
+#projects .hacks {
+  margin: 20px 0;
+  width: 95%;
+}
+
+.contact form {
+  padding: 50px 0;
+}
+.contact .form-item {
+  width: 90%;
+  max-width: 550px;
+}
+.contact .form-submit {
+  width: 40%;
+}
+
+footer {
+  font-size: 20px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+/*# sourceMappingURL=mobile.css.map */
