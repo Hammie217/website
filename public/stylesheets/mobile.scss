@@ -1,0 +1,139 @@
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+body {
+  background-attachment: none;
+}
+
+h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.intro {
+  overflow-x: hidden;
+  width: 100%;
+  min-height: 0;
+  .title-container {
+    width: 100%;
+  }
+
+  .title {
+    margin-top: 18vh;
+
+    .logos {
+      font-size: 40px;
+      width: 50%;
+    }
+
+    .right {
+      text-align: left;
+    }
+
+    .left {
+      text-align: right;
+    }
+
+    .col-md-4 {
+      padding: 0;
+    }
+
+    .col-sm-12 {
+      height: 70px;
+    }
+
+    h1 {
+      font-size: 38px;
+      letter-spacing: -1px;
+    }
+  }
+
+  .scrolling-text {
+    font-size: 10px;
+    overflow-x: hidden;
+    width: 100%;
+
+    .item1,
+    .item2,
+    .item3 {
+      width: 100%;
+    }
+  }
+
+  .shortcuts {
+    a {
+      font-size: 18px;
+    }
+
+    margin-top: 10vh;
+    width: auto;
+  }
+}
+
+.about {
+
+  height: auto;
+  display: flex;
+  padding-bottom: 0px;
+
+  .flex-container {
+    width: 100%;
+    padding-bottom: 50px;
+
+    .about-para {
+      width: 100%;
+      margin: 0;
+      padding: 0 20px 50px 20px;
+    }
+  }
+  div {
+    
+  }
+}
+
+#experience-section {
+  padding-bottom: 50px;
+}
+
+#projects {
+  padding: 50px 0 100px;
+
+  ul {
+    padding-left: 10%;
+  }
+
+  .events,
+  .hacks {
+    margin: 20px 0;
+    width: 95%;
+  }
+}
+
+.contact {
+  form {
+    padding: 50px 0;
+  }
+
+  .form-item {
+    width: 90%;
+    max-width: 550px;
+  }
+
+  .form-submit {
+    width: 40%;
+  }
+}
+
+footer {
+  font-size: 20px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
