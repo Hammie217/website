@@ -71,7 +71,7 @@
             </a>
           </div>
           <div class="logos col-md-1 right">
-            <a href="https://www.twitter.com/kat_codes">
+            <a href="https://twitter.com/KatCodes">
               <i class="fab fa-twitter"></i>
             </a>
           </div>
